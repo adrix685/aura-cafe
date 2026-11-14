@@ -1,16 +1,88 @@
-# React + Vite
+# ☕ Aura Café
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Good Coffee. Good Food. Good Moments.**
 
-Currently, two official plugins are available:
+Aura Café is a responsive café website built using React, JavaScript, Vite, and Tailwind CSS. It offers an interactive experience for exploring menu items, searching dishes, filtering categories, managing a shopping cart, and trying a table reservation form.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+- Browse café menu items.
+- Search for menu items.
+- Filter items by category and cuisine.
+- Add items to the shopping cart.
+- Increase or decrease item quantities.
+- Calculate the cart total.
+- Interactive checkout demonstration.
+- Table reservation form demonstration.
+- Responsive user interface.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+- React
+- JavaScript
+- Vite
+- Tailwind CSS
+- Lucide React
+- HTML5
+- CSS3
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Installation and Setup
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/adrix685/aura-cafe.git
+```
+
+### 2. Open the project folder
+
+```bash
+cd aura-cafe
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the development server
+
+```bash
+npm run dev
+```
+
+Open the local URL displayed in your terminal.
+
+## 📁 Project Structure
+
+```text
+aura-cafe/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── data/
+│   │   └── metadata.js
+│   ├── App.css
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── index.html
+├── package.json
+└── vite.config.js
+```
+
+## 📝 Current Limitations
+
+The checkout and reservation features are frontend demonstrations. Real payment processing and backend reservation storage are not implemented.
+
+## 👨‍💻 Developer
+
+**Adri Das**
+
+- GitHub: https://github.com/adrix685
+- LinkedIn: https://www.linkedin.com/in/adri-das-679263362/
+
+---
+
+If you find this project interesting, please consider giving it a ⭐!
